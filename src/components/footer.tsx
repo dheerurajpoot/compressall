@@ -71,20 +71,6 @@ export default function Footer() {
 									PDF Compression
 								</Link>
 							</li>
-							<li>
-								<Link
-									href='/compress/image#batch'
-									className='text-muted-foreground hover:text-primary'>
-									Batch Compression
-								</Link>
-							</li>
-							<li>
-								<Link
-									href='/compress/image#settings'
-									className='text-muted-foreground hover:text-primary'>
-									Advanced Settings
-								</Link>
-							</li>
 						</ul>
 					</div>
 
@@ -103,20 +89,6 @@ export default function Footer() {
 									href='/contact'
 									className='text-muted-foreground hover:text-primary'>
 									Contact
-								</Link>
-							</li>
-							<li>
-								<Link
-									href='/blog'
-									className='text-muted-foreground hover:text-primary'>
-									Blog
-								</Link>
-							</li>
-							<li>
-								<Link
-									href='/careers'
-									className='text-muted-foreground hover:text-primary'>
-									Careers
 								</Link>
 							</li>
 						</ul>
@@ -139,20 +111,6 @@ export default function Footer() {
 									Privacy Policy
 								</Link>
 							</li>
-							<li>
-								<Link
-									href='/cookies'
-									className='text-muted-foreground hover:text-primary'>
-									Cookie Policy
-								</Link>
-							</li>
-							<li>
-								<Link
-									href='/disclaimer'
-									className='text-muted-foreground hover:text-primary'>
-									Disclaimer
-								</Link>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -162,7 +120,12 @@ export default function Footer() {
 						© {currentYear} CompressEase. All rights reserved.
 					</p>
 					<p className='text-sm text-muted-foreground mt-4 md:mt-0'>
-						Made with ❤️ for a faster web
+						Made with ❤️ By{" "}
+						<Link
+							href='https:dheeru.org'
+							className='text-primary hover:underline'>
+							Dheeru Rajpoot
+						</Link>
 					</p>
 				</div>
 			</div>
