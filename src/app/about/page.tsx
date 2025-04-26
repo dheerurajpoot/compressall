@@ -63,9 +63,9 @@ export default function AboutPage() {
 						<p>
 							Today, CompressEase is used by thousands of people
 							worldwide - from students and bloggers to
-							professional designers and developers. We're proud
-							to help make the web a faster, more efficient place
-							one compressed file at a time.
+							professional designers and developers. We&apos;re
+							proud to help make the web a faster, more efficient
+							place one compressed file at a time.
 						</p>
 					</div>
 				</div>

@@ -177,10 +177,10 @@ export default function TermsPage() {
 					<p>
 						We reserve the right, at our sole discretion, to modify
 						or replace these Terms at any time. If a revision is
-						material we will try to provide at least 30 days' notice
-						prior to any new terms taking effect. What constitutes a
-						material change will be determined at our sole
-						discretion.
+						material we will try to provide at least 30 days&apos;
+						notice prior to any new terms taking effect. What
+						constitutes a material change will be determined at our
+						sole discretion.
 					</p>
 
 					<h2 className='text-2xl font-bold mt-8 mb-4'>

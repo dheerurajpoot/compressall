@@ -19,7 +19,7 @@ export default function ContactPage() {
 					Contact Us
 				</h1>
 				<p className='mx-auto max-w-[700px] text-muted-foreground md:text-xl'>
-					Have questions or feedback? We'd love to hear from you.
+					Have questions or feedback? We&apos;d love to hear from you.
 				</p>
 			</div>
 
@@ -171,7 +171,8 @@ export default function ContactPage() {
 								</h3>
 								<p className='text-muted-foreground'>
 									All file processing happens in your browser.
-									We don't store your files on our servers.
+									We don&apos;t store your files on our
+									servers.
 								</p>
 							</div>
 							<div>

@@ -109,7 +109,7 @@ export default function PrivacyPage() {
 						</li>
 						<li>
 							Sending you updates, newsletters, and marketing
-							communications (if you've opted in)
+							communications (if you&apos;ve opted in)
 						</li>
 						<li>
 							Analyzing usage patterns to improve our website and

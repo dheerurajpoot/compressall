@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
 						<CardContent className='p-6'>
 							<div className='flex flex-col gap-4'>
 								<p className='text-muted-foreground italic'>
-									"{testimonial.content}"
+									&quot;{testimonial.content}&quot;
 								</p>
 								<div className='flex items-center gap-4 mt-4'>
 									<Avatar>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { Upload, X, Download, ImageIcon, Info, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -180,6 +180,7 @@ export default function ImageCompressor() {
 					)
 				);
 			} catch (error) {
+				console.error("Error compressing image:", error);
 				setFiles((prev) =>
 					prev.map((f) =>
 						f.id === file.id
